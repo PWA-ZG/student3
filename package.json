@@ -1,0 +1,19 @@
+{
+  "name": "web2-lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw.js",
+  "scripts": {
+    "serve": "start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monikab11/WEB2-lab5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monikab11/WEB2-lab5/issues"
+  },
+  "homepage": "https://github.com/monikab11/WEB2-lab5#readme"
+}

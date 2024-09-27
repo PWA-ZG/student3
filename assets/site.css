@@ -1,0 +1,82 @@
+body {
+    font-family: 'Fira Sans', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #DDD;
+}
+
+div.header {
+    height: 10vh;
+    text-align: center;
+}
+
+div.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.logo-wrapper img {
+    max-width: 75%;
+    max-height: 800px;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn {
+    min-width: 210px;
+    max-width: 340px;
+    max-height: 60px;
+    margin: 15px auto;
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
